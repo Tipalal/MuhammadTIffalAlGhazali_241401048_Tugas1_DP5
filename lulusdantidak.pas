@@ -1,4 +1,4 @@
-program cekNilai;
+program kelulusan;
 
 uses crt;
 
@@ -12,9 +12,9 @@ begin
         write('Masukkan Nilai UAS: ');
         readln(NUAS);
 
-        NA := (0.4 * NUTS) + (0.6 * NUAS);
+        NA := (0.5 * NUTS) + (0.5 * NUAS);
 
-        if (NA > 80) then
+        if (NA > 70) then
         begin
             writeln('Anda dinyatakan Lulus');
         end
